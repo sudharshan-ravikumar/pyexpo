@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-gradient-to-br from-green-50 to-emerald-100 min-h-screen text-gray-800 font-sans;
+  }
+}
+
+/* Custom utilitarian classes if needed, usually Tailwind covers it */
+.glass-panel {
+  @apply bg-white/70 backdrop-blur-md border border-white/50 shadow-xl;
+}
